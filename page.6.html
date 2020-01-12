@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <ul class="nav">
+      <li><a href="index.html">home</a></li>
+      <li><a href="page.1.html">page-1</a></li>
+      <li><a href="page.2.html">page-2</a></li>
+      <li><a href="page.3.html">page-3</a></li>
+      <li><a href="page.4.html">page-4</a></li>
+      <li><a href="page.5.html">page-5</a></li>
+      <li><a href="page.6.html">page-6</a></li>
+      <li><a href="page.7.html">page-7</a></li>
+      <li><a href="page.8.html">page-8</a></li>
+    </ul>
+    <!-- <BOX-1> -->
+    <div class="wrapper box-1">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2" class="page-number">6</th>
+          </tr>
+          <tr>
+            <th colspan="2" id="box-1_date-title">Customizzare data da DATETIME a w-j-n-y-H:i in Javascript</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>php (w-j-n-y-H:i)</th>
+            <td>
+              <pre>
+| %w | Numeric day of the week | da 0 a 6   |
+| %j | Day of the month        | da 1 a 31  |
+| %n | Numeric month           | da 1 a 12  |
+| %y | Two digit for year      | 09, 10, 11 |
+| %H | Two digit for the hour  | da 00 a 23 |
+| %i | Two digit for minutes   | da 00 a 59 |
+            </pre>
+            </td>
+          </tr>
+          <tr>
+            <th>data originale</th>
+            <td id="toFormat">2019-05-06 08:02:00</td>
+          </tr>
+          <tr>
+            <th>data formattata</th>
+            <td id="result"></td>
+          </tr>
+          <tr>
+            <th></th>
+            <td>
+              <button>Formatta</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- </BOX-1> -->
+
+  </div>
+  <script src="date-6.js"></script>
+</body>
+
+</html>

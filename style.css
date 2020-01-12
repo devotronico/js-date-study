@@ -1,0 +1,114 @@
+@media (min-width: 0) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: sans-serif;
+  }
+
+  body {
+    background-color: #333;
+  }
+  .container {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: silver;
+  }
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    align-items: center;
+    min-height: 100px;
+    background-color: #999;
+  }
+
+  .nav > li {
+    margin: 5px 5px 0 5px;
+    padding: 5px;
+    list-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .nav > li > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+    font-size: 12px;
+  }
+
+  .wrapper {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #d9d9d9;
+  }
+
+  table {
+    border-collapse: collapse;
+    text-align: left;
+  }
+  th,
+  td {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 4px;
+    font-size: 10px;
+    background-color: #f2f2f2;
+  }
+
+  .page-number {
+    text-align: center;
+  }
+
+  .box-5 th {
+    width: 180px;
+  }
+  /* .box-5 td {
+    width: 320px;
+  } */
+
+  .box-1 td,
+  .box-2 td,
+  .box-3 td,
+  .box-4 td,
+  .box-5 td {
+    width: 150px;
+  }
+
+  button {
+    width: 80px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 576px) {
+  .nav {
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    background-color: #999;
+  }
+
+  table {
+    min-width: 600px;
+  }
+
+  th {
+    width: 200px;
+  }
+
+  th,
+  td {
+    padding: 10px;
+    font-size: 16px;
+  }
+}
